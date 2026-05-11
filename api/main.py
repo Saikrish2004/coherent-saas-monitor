@@ -5,6 +5,31 @@ import pandas as pd
 
 from ml_endpoint import router as ml_router
 
+from sqlalchemy import create_engine, text
+import pandas as pd
+
+DATABASE_URL = "sqlite:///data.db"
+
+engine = create_engine(DATABASE_URL)
+
+sample_data = pd.DataFrame([
+    {
+        "plan": "Free",
+        "price": 0,
+        "currency": "$",
+        "features": "Basic features",
+        "source": "Notion"
+    },
+    {
+        "plan": "Plus",
+        "price": 10,
+        "currency": "$",
+        "features": "Advanced collaboration",
+        "source": "Notion"
+    }
+])
+
+sample_data.to_sql("pricing", engine, if_exists="replace", index=False)
 app = FastAPI(title="SaaS Pricing Monitor API")
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///../data.db")

@@ -361,3 +361,9 @@ Sai Krishna Elluru
 GitHub:
 
 [https://github.com/Saikrish2004](https://github.com/Saikrish2004)
+
+<img width="1918" height="930" alt="swagger_docs" src="https://github.com/user-attachments/assets/d4d8bd24-b8e2-4f39-aad2-2f4de06d4659" />
+<img width="1917" height="1017" alt="pricing_response" src="https://github.com/user-attachments/assets/0bed82b7-9b73-442e-af7d-6ab10a73d3ff" />
+<img width="1918" height="1078" alt="docker_running" src="https://github.com/user-attachments/assets/2076d707-a324-4c26-bc5e-0ab5ce239a8a" />
+<img width="462" height="372" alt="project_structure" src="https://github.com/user-attachments/assets/e06ff717-7fd9-4013-af11-635348b15b66" />
+

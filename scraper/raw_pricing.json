@@ -1,0 +1,34 @@
+[
+  {
+    "plan": "Free",
+    "price": "$0per member / month",
+    "features": [
+      "For individuals to organize personal projects and life"
+    ],
+    "source": "Notion"
+  },
+  {
+    "plan": "Plus",
+    "price": "$10per member / month",
+    "features": [
+      "For small teams and professionals to work together"
+    ],
+    "source": "Notion"
+  },
+  {
+    "plan": "BusinessRecommended",
+    "price": "$20per member / month",
+    "features": [
+      "For growing businesses to streamline teamwork"
+    ],
+    "source": "Notion"
+  },
+  {
+    "plan": "Enterprise",
+    "price": "Custom pricing",
+    "features": [
+      "For organizations to operate with scalability, control, and security"
+    ],
+    "source": "Notion"
+  }
+]

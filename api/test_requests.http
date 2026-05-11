@@ -1,0 +1,17 @@
+### Health check
+GET http://localhost:8000/health
+
+### List providers
+GET http://localhost:8000/providers
+
+### Get all pricing data
+GET http://localhost:8000/pricing
+
+### Filter by provider
+GET http://localhost:8000/pricing?source=Notion
+
+### Filter by plan
+GET http://localhost:8000/pricing?plan=Business
+
+### Get price anomalies (ML)
+GET http://localhost:8000/anomalies
